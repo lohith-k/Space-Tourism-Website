@@ -1,0 +1,371 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100&family=Barlow:wght@300&family=Bellefair&display=swap');
+
+body
+{
+    margin:0px;
+    padding:0px;
+    background-size: cover;
+    color:white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+
+.bg-img
+{
+    background-size: cover;
+}
+.row
+{
+    display: flex;
+}
+.column
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar 
+{
+    display: flex;
+    margin:2.5rem 0rem 3.5rem 3rem;
+    justify-content: left;
+    height:5rem;
+    align-items: center;
+}
+
+.navbar img{
+    height:2.5rem;
+}
+
+.line
+{
+    width:35rem;
+    height:0px;
+    border:none;
+    border-top: 1px solid grey;
+    opacity: 0.5;
+    margin:0 -2rem 0 5rem;
+    z-index: 1;
+}
+
+.links
+{
+    width:60rem;
+    background-color: rgba(108, 108, 108, 0.4);
+    backdrop-filter: blur(1px);
+    height:100%;
+    display:flex;
+    padding-left: 2.5rem;
+    align-items: center;
+}
+.eachlink
+{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    justify-content: center;
+    margin:0rem 2rem 0rem 3rem;
+}
+.eachlink:hover
+{
+    border: none;
+    border-bottom:3px solid white;
+    border-radius: 3px;
+    opacity: 0.7;
+}
+
+.links a
+{
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: white;
+}
+
+.underline
+{
+    border: none;
+    border-bottom:3px solid white;
+    border-radius: 3px;;
+    
+}
+
+.main
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    margin:10rem 0px 0px 9rem;
+    width:25rem;
+}
+
+.content .heading
+{
+    letter-spacing: 5px;
+    font-size: 25px;
+    margin-bottom: 2rem;;
+}
+
+.title
+{
+    font-family: 'Bellefair', serif;
+    font-size: 130px;
+}
+
+.content p{
+    font-family: 'Barlow',sans-serif;
+    opacity: 0.6;
+    font-weight: 100;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    line-height: 25px;;
+}
+
+.explore
+{
+    margin:10rem 9rem 0px 0rem;
+    width:20rem;
+    height:20rem;
+    background: rgba(255, 255, 255, 0.15);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.explore button
+{
+    font-family: 'Bellefair', serif;
+    font-size: 1.5rem;
+    width:12rem;
+    height:12rem;
+    border-radius: 50%;
+    opacity: 1;
+    border:none
+}
+
+.pickdest
+{
+    margin:0rem 0rem 3rem 13rem; 
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.pickdest p{
+    opacity: 0.6;
+    display: inline-block;
+    margin:0px;
+}
+
+.dest-content
+{
+    margin-left: 12rem;
+    text-align: left;
+}
+
+.dest-details
+{
+    width:25rem;
+    margin-left: 12rem;
+}
+
+.destinations
+{
+   padding-left: 0px;
+    display:flex;
+    align-items: center;
+    height:3rem;
+}
+
+.destinations a{
+    letter-spacing: 2px;
+    margin-right:1.5rem;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: white;
+}
+.destinations a:hover{
+    border: none;
+    border-bottom:3px solid white;
+    border-radius: 3px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.dest-heading
+{
+    font-family: 'Bellefair', serif;
+    font-size: 6rem;
+    margin:2rem 0rem 1rem 0rem;
+}
+.dest-details p
+{
+    font-family: 'Barlow',sans-serif;
+    opacity: 0.6;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 0px;;
+}
+
+.dest-line
+{
+    width:25rem;
+    height:0px;
+    border:none;
+    border-top: 1px solid grey;
+    opacity: 0.5;
+    margin:1.5rem 0rem 1rem 0rem;
+}
+
+.dest-foot
+{
+    margin-right:7.5rem;
+    
+}
+
+.dest-foot strong
+{
+    margin-top: 0.5rem;
+}
+
+.pickcrew
+{
+    margin:0rem 0rem 0rem 13rem; 
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.pickcrew p{
+    opacity: 0.6;
+    display: inline-block;
+    margin:0px;
+}
+
+.crew-details
+{
+    width:35rem;
+    margin:10rem 5rem 0rem 13rem;
+}
+
+.crew-heading
+{
+    font-size: 2rem;
+    font-family: 'Bellefair','serif';
+    opacity: 0.5;
+    
+}
+
+.crew-name
+{
+    font-size:3rem;
+    font-family: 'Bellefair','serif';
+    margin:1rem 0rem 1rem 0rem;
+}
+
+.crew-details p{
+    margin:0px;
+    width:26rem;
+    font-family: 'Barlow',sans-serif;
+    opacity: 0.6;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 0px;;
+}
+
+.crew-img
+{
+    height:34.32rem;
+}
+
+.crew-details{
+    display: flex;
+}
+
+.crew-details a
+{
+    text-decoration: none;
+    color: grey;
+    font-size: 6rem;
+    margin:0px 1rem 0rem 0rem;
+    font-weight: bolder;
+    
+}
+
+.crew-details a:hover{
+    opacity: 0.5;
+}
+
+a.crew-active 
+{
+    color: white;
+}
+
+.tech-details
+{
+    width:30rem;
+    margin:0rem 5rem 0rem 5rem;
+}
+.tech-details p{
+    margin:0px;
+    width:26rem;
+    font-family: 'Barlow',sans-serif;
+    opacity: 0.6;
+    font-weight: 100;
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 0px;;
+}
+.tech{
+    
+    align-items: center;
+    margin:0px 0px 0px 12rem;
+}
+
+.tech-name
+{
+    font-size:3rem;
+    font-family: 'Bellefair','serif';
+    margin:1rem 0rem 1rem 0rem;
+}
+
+.tech-link
+{
+    font-family: 'Bellefair','serif';
+    width:3.5rem;
+    height:3.5rem;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    margin:0rem 0rem 2rem 0rem;
+    border: solid grey 0.5px;
+    text-decoration: none;
+}
+.tech-link:hover
+{
+    border:solid 1px white;
+    cursor: pointer;
+}
+
+.tech-link.active
+{
+    background-color: white;
+    color: black;
+}
+
+.tech-details .heading{
+    font-family: 'Barlow condensed',sans-serif;
+    font-size: 18px;;
+}
